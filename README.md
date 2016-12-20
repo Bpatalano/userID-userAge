@@ -16,7 +16,7 @@
 
 The program can be executed on a command line with node installed globally
 
-To run this program on `./relative/path/to/file.csv` you would type `node solution.js ./relative/path/to/file.csv`
+To run this program on `./relative/path/to/file.csv` just type `node solution.js ./relative/path/to/file.csv`
 
 The program accepts a filename for a file which contains an arbitrary number of lines. Each line contains an integer user ID and an integer user age, delimited by a comma.
 
