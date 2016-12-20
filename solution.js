@@ -15,14 +15,13 @@ fs.readFile(fileName, 'utf8', (err, data) => {
     // Split data into an array at every newline character
     let dataArr = data.split('\n');
 
-    // Use .map to change each element into a tuple by splitting on the comma delimiter
-    let resultObj = dataArr.map((element) => {
-      return element.split(',');
-    })
-
-    // Reduce the new tuples into an accumulator object acc
+    // Reduce the new elements into an accumulator object acc
     // This allows for constant time (O(1)) look up of unique age keys
-    .reduce((acc, tuple) => {
+    let resultObj = dataArr.reduce((acc, element) => {
+
+      // Change each element into a tuple by splitting on the comma delimiter
+      let tuple = element.split(',');
+      
       let age = tuple[1];
 
       // If the accumulator already has a key for an age, increment the age count and return
