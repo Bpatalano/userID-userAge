@@ -1,9 +1,14 @@
 # userID-userAge
 To run this program on the included file:
+  
   Clone the repo,
+  
   Navigate to the containing file,
+  
   Make sure Node is globally installed by typing `node -v` to check your version,
+  
   Run `node solution.js ./userID-userAge.csv`,
+  
   Your result will be logged in the console
 
 
