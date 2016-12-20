@@ -1,5 +1,6 @@
-# userID-userAge
-To run this program on the included file:
+## userID-userAge
+
+# To run this program on the included file:
   
   Clone the repo,
   
@@ -11,6 +12,7 @@ To run this program on the included file:
   
   Your result will be logged in the console
 
+# More info and how to run on any file
 
 The program can be executed on a command line with node installed globally
 
